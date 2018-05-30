@@ -10,5 +10,4 @@ class Anagram
     anagram_array = possible_anagrams.select do |word| word_array == word.split('').sort
     end
   end
-  
 end
